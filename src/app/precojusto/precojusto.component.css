@@ -1,0 +1,37 @@
+.bg-object {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background: #d2d1d1;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: -1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.calcular {
+    display: flex;
+    justify-content: center;
+  }
+
+.calcular button {
+    font-size: 16px;
+    padding: 10px 22px;
+}
+  
+h3 {
+    padding-top: 15px;
+  }
+  

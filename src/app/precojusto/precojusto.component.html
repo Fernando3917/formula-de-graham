@@ -1,0 +1,21 @@
+<div class="bg-object"></div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            lpa
+            <input type="number" [(ngModel)] = "lpa" class="form-control" step="0.1" placeholder="LPA" />
+        </div>
+        <div class="col">
+            vpa
+            <input type="number" [(ngModel)] = "vpa" class="form-control" step="0.1"placeholder="VPA"/>
+        </div>
+    </div><br>
+    <div class="calcular">
+        <button type="button" name="button" (click)="calcularprecojusto()" class="btn btn-outline-primary">Calcular</button>
+    </div>
+    <h3 class="text-center"><b>Preço Justo: {{resultado}} R$</b></h3>
+</div> 
+
